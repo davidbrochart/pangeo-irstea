@@ -2,7 +2,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
+  - python=3.6
   - ipywidgets
   - ipyleaflet
   - numba
@@ -25,7 +25,7 @@ dependencies:
   - bokeh
   - nbserverproxy
   - jupyter
-  - jupyterlab
+  - jupyterlab=0.35
   - lxml
   - zarr
   - intake
@@ -38,6 +38,6 @@ dependencies:
   - python-wget
   - pip
   - pip:
-    - dask_labextension
+    - dask_labextension==0.3.3
     - soupsieve
     - gcsfs
